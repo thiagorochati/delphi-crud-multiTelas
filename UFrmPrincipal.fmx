@@ -1,0 +1,120 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 490
+  ClientWidth = 335
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 335.000000000000000000
+    Size.Height = 490.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      335s
+      464s
+      335s
+      464s
+      335s
+      464s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Trimming = None
+      IsSelected = True
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Trimming = None
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Button1: TButton
+        Position.X = 59.000000000000000000
+        Position.Y = 158.000000000000000000
+        TabOrder = 0
+        Text = 'Button1'
+        TextSettings.Trimming = None
+        OnClick = Button1Click
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Trimming = None
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem3'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Rectangle1: TRectangle
+        Fill.Color = xFF040A1B
+        Position.X = 20.000000000000000000
+        Position.Y = 38.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle2: TRectangle
+        Fill.Color = xFFA5BECF
+        Position.X = 78.000000000000000000
+        Position.Y = 38.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object V: TRectangle
+        Fill.Color = xFF335495
+        Position.X = 136.000000000000000000
+        Position.Y = 38.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle3: TRectangle
+        Fill.Color = xFF668BC4
+        Position.X = 194.000000000000000000
+        Position.Y = 38.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle4: TRectangle
+        Fill.Color = xFFFEFEFE
+        Position.X = 252.000000000000000000
+        Position.Y = 38.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end
