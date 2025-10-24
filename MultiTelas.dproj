@@ -220,6 +220,11 @@
             <Form>FrmCliente</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="UDMDados.pas">
+            <Form>DMDados</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
