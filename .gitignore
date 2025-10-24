@@ -1,4 +1,3 @@
-Android/
-Win32/
-Win64/
-**/__history/
+/__history
+/Win32
+Win32/Debug/MultiTelas.exe
