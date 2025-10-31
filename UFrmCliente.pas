@@ -41,6 +41,7 @@ type
     procedure Rectangle6Click(Sender: TObject);
     procedure Image2Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
+    procedure Image3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -55,7 +56,7 @@ implementation
 
 {$R *.fmx}
 
-uses UDMDados;
+uses UDMDados, UFrameCliente;
 
 procedure TFrmCliente.AtualizaCliente;
 begin
@@ -69,8 +70,26 @@ begin
     if VertCliente.Content.Children[i] is TFrame then
       TFrame(VertCliente.Content.Children[i]).DisposeOf;
 
+  var Frame : TFrameCliente;
 
+  DMDados.QDados.Close;
+  DMDados.QDados.SQL.Clear;
+  DMDados.QDados.SQL.Add('SELECT * FROM CLIENTE ORDER BY NOME');
+  DMDados.QDados.Open;
+  While not DMDados.QDados.Eof do
+  begin
+    Frame := TFrameCliente.Create(nil);
 
+    Frame.LabelNome.Text  := DMDados.QDados.FieldByName('NOME').AsString;
+    Frame.LabelEmail.Text := DMDados.QDados.FieldByName('EMAIL').AsString;
+
+    Frame.Align := TAlignLayout.Top;
+    VertCliente.AddObject(Frame);
+
+    DMDados.QDados.Next;
+  end;
+
+  VertCliente.EndUpdate;
 end;
 
 procedure TFrmCliente.FormShow(Sender: TObject);
@@ -89,6 +108,11 @@ procedure TFrmCliente.Image2Click(Sender: TObject);
 begin
   MudaAba.Tab := TabConsulta;
   MudaAba.ExecuteTarget(Self);
+end;
+
+procedure TFrmCliente.Image3Click(Sender: TObject);
+begin
+  AtualizaCliente;
 end;
 
 procedure TFrmCliente.Rectangle6Click(Sender: TObject);

@@ -13,8 +13,8 @@ type
     Image1: TImage;
     Image3: TImage;
     Image4: TImage;
-    Label1: TLabel;
-    Label2: TLabel;
+    LabelNome: TLabel;
+    LabelEmail: TLabel;
   private
     { Private declarations }
   public

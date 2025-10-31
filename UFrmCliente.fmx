@@ -106,6 +106,7 @@ object FrmCliente: TFrmCliente
           Margins.Right = 8.000000000000000000
           Position.X = 302.000000000000000000
           WrapMode = Center
+          OnClick = Image3Click
         end
       end
       object Rectangle7: TRectangle
