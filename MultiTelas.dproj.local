@@ -16,9 +16,13 @@
     <Transaction>2025/10/16 20:02:52.000.720,=C:\alunos\delphi\Telas\Unit1.pas</Transaction>
     <Transaction>2025/10/16 20:03:35.000.559,C:\alunos\delphi\Telas\UFrmCliente.fmx=C:\alunos\delphi\Telas\Unit1.fmx</Transaction>
     <Transaction>2025/10/16 20:03:35.000.559,C:\alunos\delphi\Telas\UFrmCliente.pas=C:\alunos\delphi\Telas\Unit1.pas</Transaction>
-    <Transaction>2025/10/22 19:42:37.254,=C:\GIT\delphi-crud-multiTelas\Unit1.pas</Transaction>
-    <Transaction>2025/10/22 19:44:41.494,C:\GIT\delphi-crud-multiTelas\UDMDados.pas=C:\GIT\delphi-crud-multiTelas\Unit1.pas</Transaction>
-    <Transaction>2025/10/22 19:44:41.494,C:\GIT\delphi-crud-multiTelas\UDMDados.dfm=C:\GIT\delphi-crud-multiTelas\Unit1.dfm</Transaction>
+    <Transaction>2025/10/22 19:42:37.000.254,=C:\GIT\delphi-crud-multiTelas\Unit1.pas</Transaction>
+    <Transaction>2025/10/22 19:44:41.000.494,C:\GIT\delphi-crud-multiTelas\UDMDados.dfm=C:\GIT\delphi-crud-multiTelas\Unit1.dfm</Transaction>
+    <Transaction>2025/10/22 19:44:41.000.494,C:\GIT\delphi-crud-multiTelas\UDMDados.pas=C:\GIT\delphi-crud-multiTelas\Unit1.pas</Transaction>
+    <Transaction>2025/10/24 20:08:52.000.826,=C:\GIT\delphi-crud-multiTelas\Unit1.pas</Transaction>
+    <Transaction>2025/10/24 20:10:12.000.074,C:\GIT\delphi-crud-multiTelas\Unit1.pas=C:\GIT\delphi-crud-multiTelas\UFrameCliente.pas</Transaction>
+    <Transaction>2025/10/24 20:10:12.000.074,C:\GIT\delphi-crud-multiTelas\Unit1.fmx=C:\GIT\delphi-crud-multiTelas\UFrameCliente.fmx</Transaction>
+    <Transaction>2025/10/29 19:48:49.991,=C:\GIT\delphi-crud-multiTelas\Unit1.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<NoProfile Android64="" Android=""/>

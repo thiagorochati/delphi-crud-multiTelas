@@ -5,7 +5,8 @@ uses
   FMX.Forms,
   UFrmPrincipal in 'UFrmPrincipal.pas' {FrmPrincipal},
   UFrmCliente in 'UFrmCliente.pas' {FrmCliente},
-  UDMDados in 'UDMDados.pas' {DMDados: TDataModule};
+  UDMDados in 'UDMDados.pas' {DMDados: TDataModule},
+  UFrameCliente in 'UFrameCliente.pas' {FrameCliente: TFrame};
 
 {$R *.res}
 

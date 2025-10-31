@@ -78,6 +78,35 @@ object FrmCliente: TFrmCliente
           Text = 'Consulta de Cliente'
           TabOrder = 0
         end
+        object Image3: TImage
+          MultiResBitmap.Height = 24
+          MultiResBitmap.Width = 24
+          MultiResBitmap = <
+            item
+              Width = 24
+              Height = 24
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+                F80000000473424954080808087C08648800000160494441544889EDD53B6B54
+                511405E015258231A41826044114B1B5108924102C5309A6B3B4D77F60AD36A2
+                A0A036E903E9D4CA5E037609BE3A31B1B092A0100511FD2CE60C0C97993B7706
+                A6CB6A76B31EFBECF34A0E3169E00DB63135AEC1229EE01D7EE1273E601D4BF8
+                AA8333A31AB7B06938FE967AA59FCF9101E60B49B6925C4B7290E45E92E524ED
+                24AD244B491E24F9D3E371BE69E7D3D82A5D6DE3741FCE63FCAEACE451D3809B
+                45F019F303382FCB683EE139EEE25413F329EC9680AB35BCA338DEA8E38AF042
+                31DF1B593C00D54DEE6ED4AB4905B44AFD36AA1166B186637501FBA5B6470D48
+                722BC9B324D7EB02DE977A798CABBF5AEA97818CCA295A6BEA5C9E0CD81F7ABA
+                7063D83DA8F067F1B6686E37E9661AAF8B6007676BB8277BB81F313334A00817
+                8A80CEEB791FCB98C3095CC21D7C2F9C5D9C6B64DE1332870DFC538F174D4659
+                1774110F75FE831F38D0F90F9E62656CE34374F11F0F0AC35F9A055F08000000
+                0049454E44AE426082}
+              FileName = 'C:\Users\Thiago\Downloads\refresh.png'
+            end>
+          Align = Right
+          Margins.Right = 8.000000000000000000
+          Position.X = 302.000000000000000000
+          WrapMode = Center
+        end
       end
       object Rectangle7: TRectangle
         Align = Bottom
@@ -104,6 +133,17 @@ object FrmCliente: TFrmCliente
           Text = 'Inserir'
           TabOrder = 0
         end
+      end
+      object VertCliente: TVertScrollBox
+        Align = Client
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 360.000000000000000000
+        Size.Height = 322.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Viewport.Width = 360.000000000000000000
+        Viewport.Height = 322.000000000000000000
       end
     end
     object TabCadastro: TTabItem
