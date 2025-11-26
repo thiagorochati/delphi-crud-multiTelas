@@ -11,10 +11,12 @@ type
   TFrameCliente = class(TFrame)
     Rectangle1: TRectangle;
     Image1: TImage;
-    Image3: TImage;
-    Image4: TImage;
+    ImgAlterar: TImage;
+    ImgExcluir: TImage;
     LabelNome: TLabel;
     LabelEmail: TLabel;
+    procedure ImgAlterarClick(Sender: TObject);
+    procedure ImgExcluirClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -24,5 +26,17 @@ type
 implementation
 
 {$R *.fmx}
+
+uses UFrmCliente;
+
+procedure TFrameCliente.ImgAlterarClick(Sender: TObject);
+begin
+  FrmCliente.AlteraCliente(ImgAlterar.Tag);
+end;
+
+procedure TFrameCliente.ImgExcluirClick(Sender: TObject);
+begin
+  FrmCliente.DeletaCliente(ImgExcluir.Tag);
+end;
 
 end.

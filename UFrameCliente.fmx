@@ -54,7 +54,7 @@ object FrameCliente: TFrameCliente
       Size.PlatformDefault = False
       WrapMode = Center
     end
-    object Image3: TImage
+    object ImgAlterar: TImage
       MultiResBitmap.Height = 24
       MultiResBitmap.Width = 24
       MultiResBitmap = <
@@ -83,8 +83,9 @@ object FrameCliente: TFrameCliente
       Position.X = 230.000000000000000000
       Position.Y = 8.000000000000000000
       WrapMode = Center
+      OnClick = ImgAlterarClick
     end
-    object Image4: TImage
+    object ImgExcluir: TImage
       MultiResBitmap.Height = 24
       MultiResBitmap.Width = 24
       MultiResBitmap = <
@@ -114,6 +115,7 @@ object FrameCliente: TFrameCliente
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
       WrapMode = Center
+      OnClick = ImgExcluirClick
     end
     object LabelNome: TLabel
       Anchors = [akLeft, akTop, akRight]

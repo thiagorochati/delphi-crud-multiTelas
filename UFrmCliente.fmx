@@ -1,9 +1,10 @@
 object FrmCliente: TFrmCliente
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = '..:: Cadastro de Clientes ::..'
   ClientHeight = 468
   ClientWidth = 360
+  Position = MainFormCenter
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -333,7 +334,7 @@ object FrmCliente: TFrmCliente
           TextPrompt = 'E-mail'
         end
       end
-      object Rectangle6: TRectangle
+      object RecSalvar: TRectangle
         Align = Bottom
         Fill.Color = xFF335495
         Margins.Left = 10.000000000000000000
@@ -347,7 +348,7 @@ object FrmCliente: TFrmCliente
         Stroke.Kind = None
         XRadius = 10.000000000000000000
         YRadius = 10.000000000000000000
-        OnClick = Rectangle6Click
+        OnClick = RecSalvarClick
         object Label4: TLabel
           Align = Center
           StyledSettings = [Family]
